@@ -1,0 +1,54 @@
+body {
+  background: wheat;
+  color: black;
+}
+
+.mainContainer {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#scoreMainContainer {
+  width: 100%;
+}
+
+.scoreBoard {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1.5rem 0;
+  border-radius: 10px;
+  box-shadow: 3px 3px 7px rgb(0, 0, 0);
+}
+
+.scoreBoard p {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+input {
+  padding: 0.5rem 0.8rem;
+  border: none;
+  outline: none;
+  box-shadow: inset 3px 3px 7px black, inset 4px 4px 10px black;
+  background-color: transparent;
+  color: black;
+}
+
+button{
+    padding: .3rem .5rem;
+    border: none;
+    background-color: yellow;
+    color: black;
+    font-size: 1rem;
+    font-weight: 900;
+}
